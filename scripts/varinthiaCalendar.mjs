@@ -1,33 +1,7 @@
 /**
  * Extension of the core calendar with support for extra formatters.
  */
-export class CalendarVarinthia extends foundry.data.CalendarData {
-  /* -------------------------------------------- */
-  /*  Formatter Functions                         */
-  /* -------------------------------------------- */
-
-  /** @inheritDoc */
-  static formatMonthDay(calendar, components, options) {
-    return CalendarVarinthia.formatLocalized(
-      "DND5E.CALENDAR.Varinthia.Formatters.MonthDay",
-      calendar,
-      components,
-      options
-    );
-  }
-
-  /* -------------------------------------------- */
-
-  /** @inheritDoc */
-  static formatMonthDayYear(calendar, components, options) {
-    return CalendarVarinthia.formatLocalized(
-      "DND5E.CALENDAR.Varinthia.Formatters.MonthDayYear",
-      calendar,
-      components,
-      options
-    );
-  }
-}
+export class CalendarVarinthia extends foundry.data.CalendarData {}
 
 /* -------------------------------------------- */
 
